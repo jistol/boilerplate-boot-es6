@@ -20,7 +20,7 @@ Specification
 - sass
 - webpack-dev-server
 
-Setup
+Setup & Run
 ----
 1. Git 설치 및 소스 다운로드
 
@@ -46,7 +46,7 @@ $ npm install
 위 명령어를 실행하면 `node_modules` 폴더가 생기면서 `package.json`에 포함된 라이브러리들이 다운로드 됩니다.    
 
 3. Backend 서버 실행
-Gradle 빌드를 통해 WAR파일을 생성하여 직접 실행 가능하나 SpringBoot를 실행 할 수 있는 Gradle Task 명령어를 실행하여 서버를 기동할 수 있습니다.    
+Gradle 빌드를 통해 WAR파일을 생성하여 직접 실행 가능하나 SpringBoot를 실행 할 수 있는 Gradle Task 명령으로 실행하여 서버를 기동할 수 있습니다.    
 Gradle Wrapper가 소스에 포함되어 있으므로 별도의 설치 과정없이 아래와 같이 실행 가능합니다.        
 
 ```vim
