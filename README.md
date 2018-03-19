@@ -29,7 +29,7 @@ Git 설치주소 : <https://git-scm.com/downloads>
 소스 다운로드     
 
 ```vim
-$ git clone https://github.com/jistol/boilerplate-boot-es6.git
+$ git clone "https://github.com/jistol/boilerplate-boot-es6.git" boilerplate-boot-es6.git
 ```
 
 2. npm 설치 및 초기화    
@@ -80,6 +80,7 @@ $ npm run build
 `webpack-dev-server`에 대한 정의는 `webpack.config.babel.js` 파일의 아래 부분에서 확인 가능하며 NODE_ENV 값이 'local' 일 경우에만 동작하도록 설정되어 있습니다.     
 
 ```javascript
+...
     if (process.env.NODE_ENV == 'local') {
         let url = `localhost`,
             protocol = `http`,
@@ -112,6 +113,7 @@ $ npm run build
 
         config.plugins.push(new webpack.HotModuleReplacementPlugin());
     }
+...    
 ```
 
 `webpack-dev-server`를 사용하기 위해서는 8090 포트로 접근하여야 합니다.    
