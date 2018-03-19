@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap';
+
+$bg-color-default: rgb(200, 200, 200);
+$bg-color-blue: rgb(77, 77, 200);
+$bg-color-red: rgb(200, 77, 77);
+$bg-color-green: rgb(77, 200, 77);
+
+div#canvas {
+  width: 280px;
+  height: 200px;
+  &.default {
+    background-color: $bg-color-default;
+  }
+
+  &.blue {
+    background-color: $bg-color-blue;
+  }
+
+  &.red {
+    background-color: $bg-color-red;
+  }
+
+  &.green {
+    background-color: $bg-color-green;
+  }
+}
+
+a {
+  border: 1px black solid !important;
+  margin-right: 5px;
+}
+
+
