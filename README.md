@@ -5,12 +5,12 @@ SpringBoot/ES6/React 기반으로 개발시 기반 소스로 바로 사용할 수 있는 보일러플레�
 
 Specification
 ----
-1. Spring Boot 2.0.0.RELEASE
-- Spring MVC, Embedded Tomcat, Thymeleaf
+1. Backend
+- SpringBoot 2.0.0.RELEASE (Spring MVC, Embedded Tomcat, Thymeleaf)
 
-2. ECMA Script 6
+2. Frontend Builder
 - Package manager : npm
-- Bundler : webpack 
+- Bundler : webpack
 
 3. ES6 Package 구성
 - babel
